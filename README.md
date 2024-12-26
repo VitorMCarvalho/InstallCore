@@ -119,10 +119,78 @@ Babable	| 0%	| 0.05%	| 99.95% |
 
 ###### Table 2 Miscellaneous classifications of commercial antiviruses:
 
-Antivírus | VirusShare_001627d61a1bde3478ca4965e738dc1e | VirusShare_075efef8c9ca2f675be296d5f56406fa | VirusShare_0dab86f850fd3dafc98d0f2b401377d5
---------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
-
-
+Antivírus | VirusShare_0003070a022f18beb0395339818bdd31 | VirusShare_000831e751abb0428dd0147df1e67c5b | VirusShare_00086118ce2fb077bbb710048c829006
+---------- | ------------------------------------------ | ------------------------------------------- | ----------------------------------------------
+Bkav | False Negative | W32.HfsAdware.F5AA | W32.AIDetect.malware2 |
+Lionic | Adware.Win32.InstallCore.lDim | False Negative | False Negative |
+Elastic | malicious (high confidence) | Omission | malicious (high confidence) |
+DrWeb | Adware.Downware.294 | Adware.InstallCore.21 | Trojan.DownLoader4.49609 |
+MicroWorld-eScan | False Negative | False Negative | False Negative |
+FireEye | Generic.mg.0003070a022f18be | Generic.mg.000831e751abb042 | Generic.mg.00086118ce2fb077 |
+CAT-QuickHeal | PUA.Ironsource.Gen | PUA.Ironsource.Gen | Trojan.Rimod.A8 |
+ALYac | False Negative | False Negative | False Negative |
+Cylance | Unsafe | Unsafe | Unsafe |
+Zillya | Adware.InstallCoreGen.Win32.1 | Trojan.InstallCoreCRTD.Win32.523 | Trojan.Genome.Win32.129194 |
+Paloalto | False Negative | False Negative | generic.ml |
+Sangfor | Trojan.Win32.Save.a | Omission | Trojan.Win32.Save.a |
+K7AntiVirus | Unwanted-Program ( 004ae5fe1 ) | Unwanted-Program ( 004ae5fe1 ) | Adware ( 004b8c211 ) |
+Alibaba | AdWare:Win32/InstallCore.7326ea38 | False Negative | AdWare:Win32/InstallCore.aee41e8b |
+K7GW | Unwanted-Program ( 004ae5fe1 ) | Unwanted-Program ( 004ae5fe1 ) | Adware ( 004b8c211 ) |
+CrowdStrike | win/malicious_confidence_100% (D) | win/malicious_confidence_80% (D) | win/malicious_confidence_60% (D) |
+BitDefenderTheta | False Negative | Omission | False Negative |
+Cyren | W32/InstallCore.B2.gen!Eldorado | W32/InstallCore.B2.gen!Eldorado | W32/Agent.MC.gen!Eldorado |
+Symantec | Trojan.Gen.MBT | Trojan.ADH.2 | SMG.Heur!gen |
+ESET-NOD32 | a variant of Win32/InstallCore.BH potentially unwanted | a variant of Win32/InstallCore.BH potentially unwanted | a variant of Win32/InstallCore.D potentially unwanted |
+APEX | Malicious | Malicious | Malicious |
+Avast | FileRepMalware [PUP] | Win32:InstallCore-HF [PUP] | FileRepMetagen [Malware] |
+ClamAV | Win.Adware.Installcore-63 | Win.Adware.Installcore-133 | Win.Trojan.Agent-355902 |
+Kaspersky | not-a-virus:HEUR:AdWare.Win32.InstallCore.gen | False Negative | not-a-virus:HEUR:AdWare.Win32.DealPly.gen |
+BitDefender | False Negative | False Negative | False Negative |
+NANO-Antivirus | Riskware.Win32.InstallCore.pljgw |  Riskware.Win32.InstallCore.nmwea | Trojan.Win32.Zugo.cqmnya |
+SUPERAntiSpyware | Adware.InstallCore | Adware.InstallCore | Trojan.Agent/Gen-InstallCore |
+Tencent | Adware.Win32.Installcore.e  | Adware.Win32.Installcore.e | Malware.Win32.Gencirc.10b55035 |
+Ad-Aware | False Negative | False Negative | False Negative |
+Sophos | Install Core (PUA) | Install Core (PUA) | Install Core Installer (PUA) |
+Comodo | ApplicUnwnt.Win32.AdWare.InstallCore.2@4nl4x7 | ApplicUnwnt.Win32.AdWare.InstallCore.1@4mi54h | TrojWare.Win32.Kryptik.CY@4b15v9 |
+F-Secure | PotentialRisk.PUA/InstallCore.Gen | PotentialRisk.PUA/InstallCore.Gen | False Negative |
+Baidu | False Negative | False Negative | False Negative |
+VIPRE | Trojan.Win32.Generic!BT | Trojan.Win32.Generic!BT | Trojan.Win32.Generic!BT |
+TrendMicro | TROJ_GEN.R002C0OF221 | TSPY_INSTALLCORE_BK082AAB.TOMC | ADW_INSTALLCORE |
+McAfee-GW-Edition | BehavesLike.Win32.Generic.hc | BehavesLike.Win32.Fareit.hc | BehavesLike.Win32.PUP.gc |
+CMC | False Negative | Packed.Win32.InstallCore.1!O | False Negative |
+Emsisoft | Application.InstallCore (A) | Application.InstallCore (A) | Application.AppInstall (A) |
+SentinelOne | Static AI - Malicious PE | DFI - Malicious PE | Static AI - Malicious PE |
+GData | Win32.Application.InstallCore.LH | Win32.Adware.InstallCore.DY | Win32.Application.InstallCore.LH |
+Jiangmin | False Negative | AdWare/InstallCore.em | Trojan/Genome.dlfl |
+eGambit | Unsafe.AI_Score_98% | False Negative | Generic.Malware |
+Avira | PUA/InstallCore.Gen | PUA/InstallCore.Gen | APPL/Agent.dmnb |
+MAX | malware (ai score=99) | malware (ai score=97) | malware (ai score=98) |
+Antiy-AVL | Trojan/Generic.ASMalwS.4CC60D | False Negative | False Negative |
+Kingsoft | Win32.Heur.KVM019.a.(kcloud) | False Negative | False Negative |
+Gridinsoft | Adware.InstallCore.dd!c | Omission | False Negative |
+Arcabit | False Negative | False Negative | False Negative |
+ViRobot | Adware.Installcore.593288.SE | Adware.Installcore.584072.ASM | False Negative |
+ZoneAlarm | not-a-virus:HEUR:AdWare.Win32.InstallCore.gen | False Negative | not-a-virus:HEUR:AdWare.Win32.DealPly.gen |
+Microsoft | PUA:Win32/InstallCore | PUA:Win32/InstallCore | PUA:Win32/InstallCore |
+Cynet | Malicious (score: 100) | Omission | Malicious (score: 100) |
+AhnLab-V3 | Adware/Win32.InstallCore.R40342 | Win-Trojan/BundleInstaller.Gen | Adware/Win32.FoxTab.R12494 |
+Acronis | suspicious | suspicious | False Negative |
+McAfee | Artemis!0003070A022F | Artemis!000831E751AB | Artemis!00086118CE2F |
+TACHYON | False Negative | False Negative | False Negative |
+VBA32 | TScope.Trojan.Delf | BScope.Malware-Cryptor.Sinba.B | SScope.Malware-Cryptor.InstallCore.530A |
+Malwarebytes | PUP.Optional.InstallCore | Adware.Agent | PUP.Optional.InstallCore |
+Zoner | False Negative | False Negative | False Negative |
+TrendMicro-HouseCall | TROJ_GEN.R002C0OF221 | TSPY_INSTALLCORE_BK082AAB.TOMC | ADW_INSTALLCORE |
+Rising | Adware.InstallCore!1.CF49 (CLASSIC) | AdWare.Win32.InstallCore.i (CLASSIC) | PUF.InstallCore!1.9DE1 (CLASSIC) |
+Yandex | Trojan.GenAsa!Kxs7Js9W304 | Adware.InstCore!19Pb0XncEC8 | Trojan.Agent!zy1+v6fNTzM |
+Ikarus | AdWare.Generic | AdWare.InstCore | Trojan.SuspectCRC |
+MaxSecure | Adware.not-a-virus.WIN32.AdWare.InstallCore.gen_181719 | Trojan.Malware.300983.susgen | Trojan.Malware.300983.susgen |
+Fortinet | Riskware/InstallCore.AAAA | Adware/InstallCore | Riskware/InstallCore |
+Webroot | Adware.Installcore | Adware.Installcore | False Negative |
+AVG | FileRepMalware [PUP] | Win32:InstallCore-HF [PUP] | FileRepMetagen [Malware] |
+Cybereason | malicious.1ab441 | malicious.34ed42 | False Negative |
+Panda | PUP/MultiToolbar.A | False Negative | Trj/CI.A |
+Qihoo-360 | False Negative | HEUR/Malware.QVM11.Gen | False Negative |
 
 ## Materials and Methods
 
